@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Atikul Gazi - iOS Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .contact-info a:hover {
+            border-bottom: 1px solid white;
+        }
+        main {
+            padding: 40px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .experience-item {
+            margin-bottom: 25px;
+        }
+        .job-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .company {
+            color: #667eea;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+        .dates {
+            color: #666;
+            font-style: italic;
+        }
+        .achievements {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .achievement {
+            background: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .project {
+            background: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #764ba2;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .tech-stack {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        footer {
+            background: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Md. Atikul Gazi</h1>
+            <p>Technical Lead Engineer | iOS Developer</p>
+            <div class="contact-info">
+                <a href="mailto:atiksplanet@gmail.com">atiksplanet@gmail.com</a>
+                <span>+880 1914-088381</span>
+                <a href="https://www.linkedin.com/in/atiksplanet">LinkedIn Profile</a>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h2>👨‍💼 Professional Summary</h2>
+                <p>Expert iOS developer with <strong>7+ years of experience</strong> in developing SmartThings iOS app. Great collaboration skills with distributed teams across USA, Korea, India, China & Poland. Proficient with Swift, SwiftUI, and Agile/Scrum methodology.</p>
+            </section>
+
+            <section>
+                <h2>🛠 Technical Skills</h2>
+                <div>
+                    <strong>Languages:</strong>
+                    <div class="skills">
+                        <span class="skill-tag">Swift (7+ yrs)</span>
+                        <span class="skill-tag">SwiftUI</span>
+                        <span class="skill-tag">JavaScript (3+ yrs)</span>
+                        <span class="skill-tag">Objective-C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <strong>iOS Technologies:</strong>
+                    <div class="skills">
+                        <span class="skill-tag">UIKit</span>
+                        <span class="skill-tag">Combine</span>
+                        <span class="skill-tag">CoreData</span>
+                        <span class="skill-tag">Core Bluetooth</span>
+                        <span class="skill-tag">WebRTC</span>
+                        <span class="skill-tag">APNS</span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>💼 Employment History</h2>
+                <div class="experience-item">
+                    <div class="job-title">Technical Lead Engineer</div>
+                    <div><span class="company">Samsung R&D Institute Bangladesh (SRBD)</span> <span class="dates">March 2023 – Present</span></div>
+                    <p style="margin-top: 10px;">Managing Home Care Monitor plugin with live camera streaming. Refactored module using SwiftUI & Combine with MVVM-C pattern. Reduced data fetch time through caching and Combine-based paging.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Lead Engineer</div>
+                    <div><span class="company">Samsung R&D Institute Bangladesh (SRBD)</span> <span class="dates">March 2020 – February 2023</span></div>
+                    <p style="margin-top: 10px;">Managed Web Plugin & Plugin Platform modules. Handled critical user VOCs and increased app rating. Mastered WebKit, JavaScript, ReactiveSwift, and SwiftUI.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-title">Sr. Software Engineer</div>
+                    <div><span class="company">Samsung R&D Institute Bangladesh (SRBD)</span> <span class="dates">March 2018 – February 2020</span></div>
+                    <p style="margin-top: 10px;">Migrated modules to MVVM design pattern. <strong>Reduced Cyclomatic Complexity by 94%</strong> (250+ → 15) in Plugin Platform. Built Notification & History modules with extensive unit tests.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>🏆 Key Achievements</h2>
+                <div class="achievements">
+                    <div class="achievement">
+                        <strong>Team of the Year (2023)</strong><br>
+                        Recognition for outstanding contribution by SRBD
+                    </div>
+                    <div class="achievement">
+                        <strong>Excellence in Development (Q4 2022)</strong><br>
+                        Award for development excellence by SRBD
+                    </div>
+                    <div class="achievement">
+                        <strong>STAR of the Month (Dec 2021)</strong><br>
+                        Monthly recognition award by SRBD
+                    </div>
+                    <div class="achievement">
+                        <strong>Best Collaboration Award</strong><br>
+                        Awarded by Software R&D Center, Samsung Electronics
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>🚀 Featured Projects</h2>
+                <div class="project">
+                    <div class="project-title">SmartThings iOS App</div>
+                    <p>IoT control & device management platform for Samsung Connect</p>
+                    <div class="tech-stack">Tech: Swift • MVVM-C • Combine • CoreData • Rest API</div>
+                </div>
+
+                <div class="project">
+                    <div class="project-title">Home Care Monitor Plugin</div>
+                    <p>Live camera streaming plugin for SmartThings with WebRTC & RTSP support</p>
+                    <div class="tech-stack">Tech: Swift • WebRTC • AVPlayer • SwiftUI</div>
+                </div>
+
+                <div class="project">
+                    <div class="project-title">iEditor – Image & Video Editor</div>
+                    <p>Advanced media editing app with multi-file merging capabilities</p>
+                    <div class="tech-stack">Tech: Swift • SwiftUI • AVFoundation</div>
+                </div>
+
+                <div class="project">
+                    <div class="project-title">iCurrency – Currency Converter</div>
+                    <p>Real-time currency conversion with latest exchange rates</p>
+                    <div class="tech-stack">Tech: Swift • RESTful API • MVVM</div>
+                </div>
+            </section>
+
+            <section>
+                <h2>🎓 Education</h2>
+                <p><strong>B.Sc. in Computer Science & Engineering</strong></p>
+                <p>Khulna University of Engineering & Technology (KUET), Bangladesh</p>
+                <p style="color: #667eea; margin-top: 10px;">CGPA: 3.00/4.00 | April 2016</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Md. Atikul Gazi. All rights reserved. Dhaka, Bangladesh</p>
+        </footer>
+    </div>
+</body>
+</html>
