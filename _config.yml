@@ -1,38 +1,38 @@
-title: cvless
-description: Jekyll theme for a beautiful online CV
+title: Atikul Gazi
+description: Atikul Gazi's online CV built with Jekyll and the cvless theme.
 baseurl: ""
-url: https://piazzai.github.io/cvless
+url: https://atiksplanet.github.io/
 
 theme: cvless
 
 # site settings
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
+taglong: iOS Developer #Atik's online CV
+tagshort: resume #Jekyll theme
 
 # author settings
 author:
-  name: Place Holder
-  email: username@domain.com
-photo: assets/files/photo.jpg
+  name: Atikul Gazi
+  email: atiksplanet@gmail.com
+photo: assets/files/IMG_0307.jpeg
 joblines:
-  - University of Jekyll
-  - Department of Themes
-  - 123 Main St, Anytown, USA
-address: Foobar Hall 1.23
-phone: +1 234 567 890
+  - Samsung Electronics, Technical Lead Engineer
+  - SmartThings Development Group (SDG), IoT Platform Team
+  - Bir Uttam CR Dutta Rd, Dhaka 1205, Bangladesh
+address: Dhaka, Bangladesh
+phone: +880 1914 088481
 
 # profile links
 profile:
-  facebook: https://www.facebook.com/username
-  x: https://x.com/username
-  mastodon: https://mastodon.social/@username
-  bluesky: https://bsky.app/profile/username.bsky.social
-  instagram: https://www.instagram.com/username
-  linkedin: https://www.linkedin.com/in/username
-  xing: https://www.xing.com/profile/username
-  stackoverflow: https://stackoverflow.com/users/0000000/username
-  medium: https://medium.com/@username
-  github: https://github.com/username
+  facebook: https://www.facebook.com/atiksplanet/
+  x: https://x.com/atiksplanet
+  mastodon: https://mastodon.social/@atiksplanet
+  bluesky: https://bsky.app/profile/atiksplanet.bsky.social
+  instagram: https://www.instagram.com/atiksplanet
+  linkedin: https://www.linkedin.com/in/atiksplanet
+  xing: https://www.xing.com/profile/atiksplanet
+  stackoverflow: https://stackoverflow.com/users/0000000/atiksplanet
+  medium: https://medium.com/@atiksplanet
+  github: https://github.com/atiksplanet
   cv: true
 
 # build settings
