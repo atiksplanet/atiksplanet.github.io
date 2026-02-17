@@ -6,13 +6,13 @@ url: https://piazzai.github.io/cvless
 theme: cvless
 
 # site settings
-taglong: Jekyll theme for a beautiful online CV
+taglong: Atik---Jekyll theme for a beautiful online CV
 tagshort: Jekyll theme
 
 # author settings
 author:
   name: Place Holder
-  email: username@domain.com
+  email: atiks@domain.com
 photo: assets/files/photo.jpg
 joblines:
   - University of Jekyll

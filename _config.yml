@@ -1,14 +1,47 @@
-title: ""
-description: ""
+title: Atikul Gazi
+description: Atikul Gazi's online CV built with Jekyll and the cvless theme.
 baseurl: ""
-url: ""
+url: https://atiksplanet.github.io/
 
+theme: cvless
+
+# site settings
+taglong: iOS Developer @ SmartThings #Atik's online CV
+tagshort: resume #Jekyll theme
+
+# author settings
+author:
+  name: Atikul Gazi
+  email: atiksplanet@gmail.com
+photo: assets/files/IMG_0307.jpeg
+joblines:
+  - Samsung Electronics, Technical Lead Engineer
+  - SmartThings Development Group (SDG), IoT Platform Team
+  - Bir Uttam CR Dutta Rd, Dhaka 1205, Bangladesh
+address: Dhaka, Bangladesh
+phone: +880 1914 088481
+
+# profile links
+profile:
+  facebook: https://www.facebook.com/atiksplanet/
+  x: https://x.com/atiksplanet
+  mastodon: https://mastodon.social/@atiksplanet
+  bluesky: https://bsky.app/profile/atiksplanet.bsky.social
+  instagram: https://www.instagram.com/atiksplanet
+  linkedin: https://www.linkedin.com/in/atiksplanet
+  xing: https://www.xing.com/profile/atiksplanet
+  stackoverflow: https://stackoverflow.com/users/0000000/atiksplanet
+  medium: https://medium.com/@atiksplanet
+  github: https://github.com/atiksplanet
+  cv: true
+
+# build settings
+permalink: pretty
 exclude:
-  - demo/
-  - cvless.gemspec
   - LICENSE
   - README.md
-  - screenshot.png
+  - Gemfile
+  - vendor/
 
 plugins:
   - jekyll-feed
@@ -18,18 +51,5 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  style: compressed
   sourcemap: never
-
-feed:
-  path: atom.xml
-
-autopages:
-  enabled: false
-
-pagination:
-  enabled: true
-  per_page: 1
-  sort_reverse: true
-  permalink: /:num/
-  title: ":title &middot; Page :num"
+  
