@@ -3,7 +3,7 @@ description: Atikul Gazi's online CV built with Jekyll and the cvless theme.
 baseurl: ""
 url: https://atiksplanet.github.io/
 
-theme: cvless
+#theme: cvless
 
 # site settings
 taglong: iOS Developer #Atik's online CV
