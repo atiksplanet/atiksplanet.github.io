@@ -13,7 +13,9 @@ Live site: https://atiksplanet.github.io/
 
 ## Publishing
 
-GitHub Pages currently publishes the root of `piazzai/cvless`, not `main`. Prepare updates on a separate branch based on `piazzai/cvless` and merge into that publishing branch only when approved.
+GitHub Pages uses **GitHub Actions**, with `.github/workflows/pages.yml` building and deploying pushes to `codex/update-professional-portfolio`. This is the explicitly selected publishing branch; `main` is not the site source. The workflow installs the project's Bundler dependencies, builds with Jekyll, verifies essential outputs and uploads the generated `_site` artifact before deployment.
+
+In repository Settings → Pages, keep the source set to GitHub Actions. Deployment uses the `github-pages` environment. If branch restrictions are enabled for that environment, the publishing branch must be permitted; keep any required approval rules in place.
 
 With compatible Ruby and Bundler dependencies installed, use `bundle install`, then `bundle exec jekyll serve` for preview or `bundle exec jekyll build` for validation.
 
