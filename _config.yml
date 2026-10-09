@@ -1,13 +1,13 @@
 title: Atikul Gazi
-description: Atikul Gazi's online CV built with Jekyll and the cvless theme.
+description: "Atikul Gazi — Staff Engineer I at Samsung R&D Bangladesh. iOS, SDKs, IoT connectivity, camera streaming and on-device AI exploration."
 baseurl: ""
 url: https://atiksplanet.github.io/
 
 #theme: cvless
 
 # site settings
-taglong: iOS Developer @ SmartThings #Atik's online CV
-tagshort: resume #Jekyll theme
+taglong: "iOS · SDKs · IoT"
+tagshort: portfolio
 
 # author settings
 author:
@@ -15,23 +15,14 @@ author:
   email: atiksplanet@gmail.com
 photo: assets/files/IMG_0307.jpeg
 joblines:
-  - Samsung Electronics, Technical Lead Engineer
-  - SmartThings Development Group (SDG), IoT Platform Team
-  - Bir Uttam CR Dutta Rd, Dhaka 1205, Bangladesh
+  - Staff Engineer I, Samsung R&D Institute Bangladesh Ltd.
+  - SmartThings Development Group
 address: Dhaka, Bangladesh
-phone: +880 1914 088481
+phone: +880 1914 088381
 
 # profile links
 profile:
-  facebook: https://www.facebook.com/atiksplanet/
-  x: https://x.com/atiksplanet
-  mastodon: https://mastodon.social/@atiksplanet
-  bluesky: https://bsky.app/profile/atiksplanet.bsky.social
-  instagram: https://www.instagram.com/atiksplanet
   linkedin: https://www.linkedin.com/in/atiksplanet
-  xing: https://www.xing.com/profile/atiksplanet
-  stackoverflow: https://stackoverflow.com/users/0000000/atiksplanet
-  medium: https://medium.com/@atiksplanet
   github: https://github.com/atiksplanet
   cv: true
 
@@ -42,6 +33,9 @@ exclude:
   - README.md
   - Gemfile
   - vendor/
+  - demo/
+  - docs/
+  - screenshot.png
 
 plugins:
   - jekyll-feed

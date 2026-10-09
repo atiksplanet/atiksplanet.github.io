@@ -1,38 +1,65 @@
 ---
 layout: cv
-title: CV
+title: Professional experience
 ---
 
-# Curriculum Vitæ
+# Professional experience
 
 {% include contact.html %}
 
-## Research & Academic Interests
+## Profile
 
-Software Engineering, Machine Learning, Internet of Things (IoT), Internet of Everything (IoE), Computer Vision, Intelligent Video Analytics, Software Security, Applied AI for Smart and Embedded Systems (IoT/IoE), Scalable Multimedia & Streaming Systems.
+iOS and SDK engineer with ten years of experience at Samsung R&D Institute Bangladesh. My background combines SmartThings app development, connected-device features, camera streaming, native APIs and small-team leadership. My more recent SCClient work focuses on Swift interoperability with a C/C++ connectivity layer. I am also exploring on-device AI model authoring and integration for iOS.
 
-## Education
+Open to senior iOS, SDK engineering and technical-lead roles in Bangladesh and internationally, including remote work and relocation.
 
-**Khulna University of Engineering & Technology (KUET)**, Khulna, Bangladesh  
-B. Sc. in Computer Science and Engineering (CSE)  
-**CGPA:** 3.00 / 4.00 | **Duration:** February 2012 to April 2016
+[Download my professional résumé]({{ '/assets/files/Atikul_Gazi_Professional_Resume.pdf' | relative_url }})
 
 ## Professional Experience
 
-### Engineer III – Samsung Electronics
+### Samsung R&D Institute Bangladesh Ltd.
 **Samsung R&D Institute Bangladesh Ltd. (SRBD), Dhaka, Bangladesh**  
 **May 2016 – Present**
 
-* Managed and released the Samsung IoTivity Core SDK (C/C++) used for device connectivity across the SmartThings ecosystem.
+**Role progression**
+
+- Staff Engineer I: March 2026 – Present.
+- Technical Lead Engineer: March 2023 – February 2026.
+- Lead Engineer: March 2020 – February 2023.
+- Senior Software Engineer: March 2018 – February 2020.
+- Software Engineer: May 2016 – February 2018.
+
+**SmartThings iOS app contributions**
+
+* Contributed to device connectivity, smart-home features, camera streaming and SDK integration.
+* Built more than 100 native APIs connecting plugin functionality with iOS capabilities.
 * Managed a team of four engineers in developing the IoT camera plugin.
 * Collaborated with cross-functional engineering teams in South Korea, the USA, China, and India.
-* Primary developer of the Samsung Home Care plugin, responsible for features such as live camera streaming using WebRTC and RTSP protocols.
+* Contributed to Home Care Monitor camera features, including live streaming, playback and camera controls.
 * Developed IoT automation that detects motion, sound, and faces, along with user notification alerts.
 * Integrated third-party cameras (Google Nest, Ring, Aqara) to enhance user satisfaction and improve system compatibility.
-* Addressed critical user feedback, significantly improving app satisfaction and ratings.
+* Investigated and resolved issues reported by users across connected-device and camera features.
 * Built the first PoC of the iOS SmartThings project using IoTivity Library, Swift, and Objective-C.
 * Assisted in the initial release of the SmartThings iOS project to the app store.
-* Played a pivotal role in building foundational modules for the iOS SmartThings app.
+* Contributed to foundational modules for the SmartThings iOS app.
+
+**More recent SCClient / IoTivity integration work**
+
+This is my more recent area of work, rather than the focus of my entire career at Samsung.
+
+* Contribute to the native iOS SDK layer bridging Swift and Objective-C with C/C++ connectivity services.
+* Worked on version-aware subscriptions, caching, offline diagnostics and callback handling.
+* Contributed to BLE onboarding behaviour and UDP recovery after Wi-Fi changes.
+* Worked on subscription cleanup, native-wrapper exception handling and diagnostic logging.
+* Supported Xcode compatibility, dependency integration, framework delivery and release documentation.
+
+**AI-assisted development and on-device AI exploration**
+
+* Use Codex, Claude and Gemini in development workflows, with engineering review and validation.
+* Author and adapt lightweight Hugging Face models for integration into Xcode projects.
+* Explore model authoring and optimization through iOS proof-of-concept work, without claiming production AI deployment.
+
+[Public model-learning fork](https://github.com/atiksplanet/coreai-models)
 
 ## Technical Skills & Interests
 
@@ -49,17 +76,24 @@ B. Sc. in Computer Science and Engineering (CSE)
 * **SmartThings (iOS)** – Development Project for iOS at SRBD (May 2016 – Present) | Swift, SwiftUI, C++  
   Connects and controls IoT devices locally and remotely.
 
-* **Samsung IoTivity Library** – Development Project for SmartThings at SRBD (2024) | C, C++, Objective-C  
-  Core IoTivity SDK for SmartThings app to connect and control every IoT device.
+* **SCClient / IoTivity integration** – Native iOS SDK work at SRBD | Swift, Objective-C, C++
+
+  Native APIs, subscriptions, callbacks, lifecycle handling and connectivity diagnostics.
 
 * **Home Care Monitor (Camera) Plugin** – Development Project for SmartThings at SRBD (2023) | Swift  
-  Plugin for SmartThings app that controls and streams all kinds of IoT Camera devices.
+  Camera-plugin functionality for streaming, playback and device controls.
 
 * **LUX (Speaker) Web Plugin** – Development Project for SmartThings app at SRBD (2020) | JS, CSS, HTML  
   Plugin for SmartThings app that controls the Samsung Galaxy Home mini (Speaker) device.
 
 * **Prayer Time Phone Silencer** – Undergraduate Project at KUET (2014) | Java, Google MAP API  
   App that keeps the phone silent during prayer and returns it to normal mode afterwards.
+
+## Education
+
+**Khulna University of Engineering & Technology (KUET)**, Khulna, Bangladesh
+
+BSc in Computer Science and Engineering · February 2012 – April 2016 · CGPA: 3.00 / 4.00.
 
 ## Undergraduate Thesis
 
