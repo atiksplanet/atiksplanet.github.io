@@ -15,7 +15,7 @@ Run `python3 -m http.server 8765 --bind 127.0.0.1` in this folder and open http:
 
 ## GitHub Pages
 
-The workflow in `.github/workflows/pages.yml` validates pull requests targeting `main` without deploying them. After approval and merge, pushes to `main` publish the portfolio at https://atiksplanet.github.io/. Keep Settings → Pages → Source set to GitHub Actions. The `github-pages` environment must allow `main`.
+The workflow in `.github/workflows/static.yml` validates pull requests targeting `main` without deploying them. After approval and merge, pushes to `main` publish the portfolio at https://atiksplanet.github.io/. Keep Settings → Pages → Source set to GitHub Actions. The `github-pages` environment must allow `main`.
 
 Only `index.html`, `styles.css`, `app.js` and `assets/` enter the deployment artifact. Private content notes, contribution wikis and immigration documents are intentionally excluded.
 
