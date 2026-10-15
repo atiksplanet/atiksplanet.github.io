@@ -19,7 +19,11 @@ The workflow in `.github/workflows/static.yml` validates pull requests targeting
 
 Only `index.html`, `styles.css`, `app.js` and `assets/` enter the deployment artifact. Private content notes, contribution wikis and immigration documents are intentionally excluded.
 
-Before merging this migration, disable the older **Build and deploy portfolio** workflow that publishes from `codex/update-professional-portfolio` to avoid two branches updating the same website. Do not delete its branch; it retains the earlier Jekyll site for reference.
+The earlier Jekyll site is retained on its historical branch for reference. Only the current workflow on `main` should publish this site.
+
+## Résumé download
+
+`assets/Atikul_Gazi_Resume.pdf` is the two-page, photo-free general senior iOS/SDK résumé refreshed on 15 October 2026. Keep this public download aligned with the designated base résumé, not a company-specific application or academic/immigration CV. Review its contact information before publishing.
 
 ## Content boundaries
 
